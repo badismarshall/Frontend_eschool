@@ -1,6 +1,6 @@
 # Frontend_eschool
 
-## 1. Create React Project wit Vite
+## 1. Create React Project with Vite
 
 ```bash
 npm create vite@latest
