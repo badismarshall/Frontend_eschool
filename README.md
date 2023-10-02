@@ -1,8 +1,34 @@
-# React + Vite
+# Frontend_eschool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 1. Create React Project wit Vite
 
-Currently, two official plugins are available:
+```bash
+npm create vite@latest
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 2. Choose best config
+
+React with JavaScript + SWC (maybe we need SWC in next days)
+
+## 3. Install Tailwindcss with postcss
+
+```bash
+> npm install -D tailwindcss postcss autoprefixer
+> npx tailwindcss init -p 
+```
+
+## 4. ****Configure your template paths****
+
+Add the paths to all of your template files in your **`tailwind.config.js`** file.
+
+```jsx
+content: ["./index.html", "./src/**/*.{js,jsx}"],
+```
+
+## 5. ****Add the Tailwind directives to your CSS (index.css)****
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
