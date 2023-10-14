@@ -19,7 +19,11 @@ React with JavaScript + SWC (maybe we need SWC in next days)
 
 ## 4. ****Configure your template paths****
 
+<<<<<<< HEAD
 Add the paths to all of your template files in your **`tailwind.config.js`** file.
+=======
+Add the paths to all of your template files in your **`tailwind.config.js`** file.
+>>>>>>> BadisBranch
 
 ```jsx
 content: ["./index.html", "./src/**/*.{js,jsx}"],

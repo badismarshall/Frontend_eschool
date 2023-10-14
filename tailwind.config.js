@@ -13,7 +13,16 @@ export default {
         secondary3: "#5BB6D2"
       },
     },
+    screens: {
+      xs: "480px",
+      ss: "620px",
+      sm: "768px",
+      md: "1060px",
+      lg: "1200px",
+      xl: "1400px",
+      xxl: "1700px",
+    },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 

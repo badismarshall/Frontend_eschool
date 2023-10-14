@@ -1,9 +1,8 @@
-import React from 'react'
 import { teachers } from '../constants'
 
 export const MeetOurTeacher = () => {
   return (
-    <div className='flex w-full bg-primary justify-center items-center flex-col p-2 h-full gap-12'>
+    <div className='flex w-full  justify-center items-center flex-col h-full gap-12 px-[68px]'>
       <div className='flex flex-col gap-7'>
         <div className='font-jakarta text-[42px] font-[500] leading-[58.8px] text-white'>
             Meet Our Teachers
@@ -24,7 +23,7 @@ export const MeetOurTeacher = () => {
                 alt={teacher.name}
                 className='w-full object-cover h-[374px]'
               />
-              <div className='flex flex-col justify-center absolute top-1/3 right-0 ease-linear duration-300 rotate-[270deg] bg-[#363636B2] w-[307px] h-[100px] rounded-[8px] backdrop-blur-[18px] translate-x-[300px] group-hover:translate-x-[50px]'>
+              <div className='flex flex-col justify-center absolute top-1/3 right-0 ease-linear duration-300 rotate-[270deg] bg-[#363636B2] w-[307px] h-[100px] rounded-[8px] backdrop-blur-[18px] translate-x-[300px] group-hover:translate-x-[80px]'>
                 <h1 className='text-white text-lg font-bold'>{teacher.name}</h1>
                 <p className='text-white'>{teacher.subject}</p>
               </div>
