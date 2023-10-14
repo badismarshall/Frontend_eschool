@@ -12,7 +12,6 @@ import Tec4 from "./Tec4.jpg"
 import Tec5 from "./Tec5.jpg"
 import Tec6 from "./Tec6.jpg"
 
-
 export {
     Teacher1,
     Teacher2,
@@ -26,5 +25,5 @@ export {
     Tec3,
     Tec4,
     Tec5,
-    Tec6
+    Tec6,
 }
